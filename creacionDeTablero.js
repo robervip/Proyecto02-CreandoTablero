@@ -16,7 +16,7 @@ var color=(color1,color2,color3,color4,color5,color6);
 
 function IniciaTablero(fila,color) {
 }
-IniciaTablero(fila,color)
+IniciaTablero(fila,color);
 
 function CompruebaTablero(fila,color){
 }

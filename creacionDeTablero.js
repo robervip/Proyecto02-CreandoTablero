@@ -11,13 +11,34 @@ var color4=["red","pink","blue","yellow","white","green"];
 var color5=["red","pink","blue","yellow","white","green"];
 var color6=["red","pink","blue","yellow","white","green"];
 
+var long1=fila1.length;
+var long2=fila2.length;
+var long3=fila3.length;
+var long4=fila4.length;
+var long5=fila5.length;
+var long6=fila6.length;
+
 var fila=(fila1,fila2,fila3,fila4,fila5,fila6);
 var color=(color1,color2,color3,color4,color5,color6);
-
-function IniciaTablero(fila,color) {
+var i=0;
+function IniciaTablero() {
+  for (let i = 0; i < long1; i++) {
+    console.log(fila1[i]+" con "+color1[i]);
+  }
+  for (let i = 0; i < long2; i++) {
+    console.log(fila2[i]+" con "+color2[i]);
+  }
+  for (let i = 0; i < long3; i++) {
+    console.log(fila3[i]+" con "+color3[i]);
+  }
+  for (let i = 0; i < long4; i++) {
+    console.log(fila4[i]+" con "+color4[i]);
+  }
+  for (let i = 0; i < long5; i++) {
+    console.log(fila5[i]+" con "+color5[i]);
+  }
+  for (let i = 0; i < long6; i++) {
+    console.log(fila6[i]+" con "+color6[i]);
+  }
 }
-IniciaTablero(fila,color);
-
-function CompruebaTablero(fila,color){
-}
-console.log(fila,color);
+IniciaTablero();

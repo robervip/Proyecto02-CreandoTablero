@@ -5,11 +5,11 @@ var fila4=[1,2,3,4,5,6];
 var fila5=[1,2,3,4,5,6];
 var fila6=[1,2,3,4,5,6];
 var color1=["red","pink","blue","yellow","white","green"];
-var color2=["red","pink","blue","yellow","white","green"];
-var color3=["red","pink","blue","yellow","white","green"];
-var color4=["red","pink","blue","yellow","white","green"];
-var color5=["red","pink","blue","yellow","white","green"];
-var color6=["red","pink","blue","yellow","white","green"];
+var color2=["green","red","pink","blue","yellow","white"];
+var color3=["white","green","red","pink","blue","yellow"];
+var color4=["yellow","white","green","red","pink","blue"];
+var color5=["blue","yellow","white","green","red","pink"];
+var color6=["pink","blue","yellow","white","green","red"];
 
 var long1=fila1.length;
 var long2=fila2.length;
